@@ -2,11 +2,16 @@
 Implements mod loading for Skyrim Special Edition on linux by using UnionFS and Mod Organizer 2 in order to launch with mods in a more flexible way
 
 ## Installation
-This script can be ran from anywhere but for ease of use, it can be placed inside of Skyrim's game directory.
+*This readme assumes that you have already gotten a mod capable Skyrim working with Proton*
 
+*It also assumes that you have a working Mod Organizer 2 instance located in the prefix used by Skyrim*
+
+This script can be ran from anywhere but for ease of use, it should be placed inside of Skyrim's game directory.
 Which can be found by going to `Properties...>Local Files>Browse...`
 
-*This readme assumes that you have already gotten moddable Skyrim working with Proton*
+There is also a supplemetry start script used to launch the game with which should be placed in the same directory as the bootstrap script.
+
+*start.sh requires `zenity` to be installed on the system in order to function*
 
 ## Script requirements
 * Steam (with Steam Play enabled)
@@ -16,10 +21,17 @@ Which can be found by going to `Properties...>Local Files>Browse...`
 * standard Linux utilities
 
 ## Usage
-This script can be ran at any time, the method of for when it is executed is up to you.
+The bootstrap script can be ran at any time, the method for how it is executed is up to you.
 
 One solution is to use the launch options in Steam to launch the script before the game launches (and after for cleanup).
-The way to do this is again up to you, my solution is to use a basic menu to wrapper launch with.
+The way to do this is again up to you.
+
+This repository comes with a basic startup wrapper script that'll ask if you want to load mods.
+To use modify the launch options in steam to look something like this:
+
+`/path/to/start.sh "%command%"`
+
+Any other wrapper commands or enviroment variables should go inside the quotes as well.
 
 ## Expectations
 This is not a mod organizer, but is, in fact, a bootstrapper.

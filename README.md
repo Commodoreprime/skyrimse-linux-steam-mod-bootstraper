@@ -19,8 +19,7 @@ Which can be found by going to `Properties...>Local Files>Browse...`
 This script can be ran at any time, the method of for when it is executed is up to you.
 
 One solution is to use the launch options in Steam to launch the script before the game launches (and after for cleanup).
-
-The way to do this is again up to you, my solution is to use a basic menu to wrapper launch with
+The way to do this is again up to you, my solution is to use a basic menu to wrapper launch with.
 
 ## Expectations
 This is not a mod organizer, but is, in fact, a bootstrapper.

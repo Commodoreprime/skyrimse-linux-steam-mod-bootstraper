@@ -45,7 +45,6 @@ MO2_MODS_DIR="$MO2_DIR/mods"
 MO2_PROFILE="Default"
 
 MODLIST_FILE="$MO2_DIR/profiles/$MO2_PROFILE/modlist.txt"
-#LOADORDER_FILE="$MO2_DIR/profiles/$MO2_PROFILE/loadorder.txt"
 
 # UnionFS command arguments
 UFS_BRANCH_STRING="Data.base/"

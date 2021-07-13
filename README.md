@@ -39,6 +39,8 @@ This is not a mod organizer, but is, in fact, a bootstrapper.
 This script relies on a mod organizer and other tools such as LOOT to compile a correct load order and to store uncompressed mods.
 Basicly do everything except launch the game.
 
+**Load order is not too well understood by this script, it will unify based on the order of `modlist.txt`. This will have to be fixed later**
+
 This script runs off of the structure of a portable instance of [Mod Organizer 2](https://github.com/ModOrganizer2/modorganizer)
 where all data is under `C:\\Modding\\MO2`.
 
